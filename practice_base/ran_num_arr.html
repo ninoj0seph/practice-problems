@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <script>
+        function randomRange(startNum, endNum){
+            if(Array.isArray(startNum)){
+                randomIndex = Math.floor(Math.random() * startNum.length);
+                return startNum[randomIndex];
+            } else {
+                return Math.floor((Math.random() * endNum) + startNum);
+            }
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
